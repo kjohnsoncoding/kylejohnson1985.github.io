@@ -1,0 +1,158 @@
+body {
+    position: relative; 
+}
+
+#profilePic{
+    margin: 0;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    color: #fff;
+    background-image: url("assets/newbackground.jpg");
+    clear: both;
+}
+
+#aboutMe {
+    margin: 0;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    height: 500px;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+
+#projects {
+    margin: 0;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    color: #000; 
+    background-color: rgb(240, 240, 240);
+}
+
+#knowledge {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    color: #000; 
+    background-color: rgb(255, 255, 255);
+}
+
+#contactMe {
+    padding-top: 7%;
+    padding-bottom: 10%;
+    color: #000; 
+    background-color: rgb(240, 240, 240);
+}
+
+#footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #000; 
+    background-color: rgb(255, 255, 255);
+}
+
+#logo {
+    float: left;
+    margin: 5px;
+    padding: 0;
+    clear: both;
+}
+
+#novice {
+    color: #3b5998;
+}
+
+#intermediate {
+    color: goldenrod;
+}
+
+#strong {
+    color: green;
+}
+
+#logo {
+    float: left;
+    margin: 5px;
+    padding: 0;
+    clear: both;
+}
+
+#cert {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#description {
+    margin: 5px;
+    margin-left: 35px;
+    padding: 5px;
+    text-align: left;
+}
+
+label {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    width: 100%;
+    padding: 0px 5px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 6px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 4px;
+    resize: none;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgb(146, 146, 146);
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(14, 78, 255, 0.808);
+    border: 2px solid rgb(146, 146, 146);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=reset]:hover {
+    background-color: rgba(14, 78, 255, 0.808);
+    border: 2px solid rgb(146, 146, 146);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input {
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

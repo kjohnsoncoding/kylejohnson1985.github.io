@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Johnson's Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+</head>
+<body>
+
+<!-- Navigation / About Me / Projects / Knowledge / Contact Me -->
+<nav class="navbar navbar-inverse" style="padding: 0; margin: 0; border-radius: 0;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Kyle Johnson</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#knowledge">Knowledge</a></li>
+            <li><a href="#contactMe">Contact Me</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- About Me Section / Include a picture and some information -->
+<div id="profilePic">
+        <div class="container-fluid">
+            <div class="container-fluid bg-1 text-center">
+                <h2 class="margin">Who Am I?</h2>
+                <img src="assets/profile.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Profile" width="350" height="350">
+                <h3>I'm Kyle Johnson and I'm a software developer!</h3>
+            </div>
+        </div>
+</div>
+
+<div id="aboutMe">
+    <div class="container-fluid bg-2 text-center">
+        <h2 class="margin">About Me</h2>
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-5" style="text-align: left;">
+                  <ul>
+                    <li>Software Development student at Eleven Fifty Academy</li>
+                    <li>Started messing with HTML & CSS when I was 14</li>
+                    <li>Always interested in learning</li>
+                  </ul>
+              </div>
+              <div class="col-sm-2"></div>
+              <div class="col-lg-5" style="text-align: left;">
+                <ul>
+                    <li>Resident of Indianapolis, IN for the last 20+ years</li>
+                    <li>Born in Reno, Nevada</li>
+                    <li>Enjoy spending time with friends, family, and my two Rottweilers</li>
+                    <li>Motorcycle enthusiast</li>
+                    <li>Avid video gamer</li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Projects / Bootstrap Carousel-->
+<div id="projects">
+    <div class="container text-center">
+        <h2>My Projects</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <a href="https://github.com/kylejohnson1985/tictactoe" target="_blank"><img src="assets/tictactoe.jpg" alt="Tic Tac Toe" style="width:100%;"></a>
+              <div class="carousel-caption">
+                <h3>Tic-Tac-Toe</h3>
+                <p>Created using C#. View on GitHub.</p>
+              </div>
+            </div>
+      
+            <div class="item">
+              <a href="https://codepen.io/kylejohnson1985/pen/VwLmEJo" target="_blank"><img src="assets/csscreature.jpg" alt="CSS Creature" style="width:100%;"></a>
+              <div class="carousel-caption">
+                <h3>CSS Creature</h3>
+                <p>Attempted creature using just CSS. View on CodePen.</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <a href="http://www.twitch.tv" target="_blank"><img src="assets/staticstore.jpg" alt="Static Store Front" style="width:100%;"></a>
+              <div class="carousel-caption">
+                <h3>Static Store Front</h3>
+                <p>Created a store front using HTML & CSS. View on GitHub.</p>
+              </div>
+            </div>
+
+            <div class="item">
+                <a href="#" target="_blank"><img src="assets/bluebadge.jpg" alt="API Group Project" style="width:100%;"></a>
+                <div class="carousel-caption">
+                  <h3>EFA Blue Badge Project</h3>
+                  <p>Filler space for EFA Blue Badge Project</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <a href="#" target="_blank"><img src="assets/redbadge.jpg" alt="Red Badge" style="width:100%;"></a>
+                <div class="carousel-caption">
+                  <h3>EFA Red Badge Project</h3>
+                  <p>Filler space for EFA Red Badge Project</p>
+                </div>
+            </div>
+        </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+</div>
+
+<!-- Knowledge / Progress bars on various technologies & certifications -->
+<div id="knowledge">
+    <div class="container-fluid bg-2 text-center">
+        <h2 class="margin">Knowledge</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Languages & Programs</h3>
+
+                    <div id="skill">
+                        <div id="logo">
+                            <img src="assets/html5.png" alt="HTML" width="50px" height="50px" />
+                        </div>
+                        <div id="bar">
+                            <div style="text-align: left;">
+                                <b>HTML -- <span id="novice">Novice</span></b>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="skill">
+                        <div id="logo">
+                            <img src="assets/css3.png" alt="CSS" width="50px" height="50px" />
+                        </div>
+                        <div id="bar">
+                            <div style="text-align: left;">
+                                <b>CSS -- <span id="novice">Novice</span></b>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="skill">
+                        <div id="logo">
+                            <img src="assets/csharp.png" alt="C Sharpe" width="50px" height="50px" />
+                        </div>
+                        <div id="bar">
+                            <div style="text-align: left;">
+                                <b>C# -- <span id="novice">Novice</span></b>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="skill">
+                        <div id="logo">
+                            <img src="assets/bootstrap.png" alt="Boostrap" width="50px" height="50px" />
+                        </div>
+                        <div id="bar">
+                            <div style="text-align: left;">
+                                <b>Bootstrap -- <span id="novice">Novice</span></b>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="skill">
+                        <div id="logo">
+                            <img src="assets/visualstudiocode.png" alt="Visual Studio Code" width="50px" height="50px" />
+                        </div>
+                        <div id="bar">
+                            <div style="text-align: left;">
+                                <b>Visual Studio Code -- <span id="intermediate">Intermediate</span></b>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="skill">
+                        <div id="logo">
+                            <img src="assets/visualstudiocommunity.png" alt="Visual Studio Community" width="50px" height="50px" />
+                        </div>
+                        <div id="bar">
+                            <div style="text-align: left;">
+                                <b>Visual Studio Community -- <span id="intermediate">Intermediate</span></b>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="skill">
+                        <div id="logo">
+                            <img src="assets/office.png" alt="Office" width="50px" height="50px" />
+                        </div>
+                        <div id="bar">
+                            <div style="text-align: left;">
+                                <b>Microsoft Office -- <span id="strong">Strong</span></b>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <h3>Certifications & Achievements</h3>
+
+                    <div id="cert">
+                        <div id="logo">
+                            <img src="assets/linkedin.png" alt="LinkedIn" width="50px" height="50px" />
+                        </div>
+                        <div id="description">
+                            <div>
+                                <b>Accessibility for Web Design</b><br />
+                                <i>Completed March 2020</i><br />
+                                <a href="http://www.linkedin.com/learning/accessibility-for-web-design" target="_blankl">View Certification</a>
+                                <ul>
+                                    <li>Using color, contrast, and animation in an accessible way</li>
+                                    <li>Making experiences accessible via the keyboard</li>
+                                    <li>Form Accessibility</li>
+                                    <li>Structuring content</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="logo">
+                        <img src="assets/linkedin.png" alt="LinkedIn" width="50px" height="50px" />
+                    </div>
+                    <div id="description">
+                        <div>
+                            <b>Balancing Work and Life</b><br />
+                            <i>Completed March 2020</i><br />
+                            <a href="http://www.linkedin.com/learning/balancing-work-and-life" target="_blank">View Certification</a>
+                            <ul>
+                                <li>Balancing time budget</li>
+                                <li>Balancing between work and personal time</li>
+                                <li>Balancing personal time for yourself and others</li>
+                                <li>Balancing the technology in your life</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="logo">
+                        <img src="assets/goldbadge.png" alt="Gold Badge" width="50px" height="50px" />
+                    </div>
+                    <div id="description">
+                        <div>
+                            <b>Eleven Fifty Academy Gold Badge</b><br />
+                            <i>Completed April 2020</i><br />
+                            <a href="https://www.youracclaim.com/badges/5c0fa988-0bf8-4bb5-9ac0-e193c7996382/linked_in" target="_blank">View Certification</a>
+                            <ul>
+                                <li>Fundamentals of C#, CSS, and HTML</li>
+                                <li>Developer tools, such as Visual Studio, Github, and Git</li>
+                                <li>Ability to meet deadlines and complete a series of business challenges covering C# and Object Oriented Programming fundamentals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Me Form -->
+
+<div id="contactMe">
+    <div class="container-fluid">
+        <div class="container-fluid bg-1 text-center" style="text-align: left;">
+            <h2 class="margin" style="text-align: center;">Contact Me</h2><br />
+            <form action="https://formspree.io/xaybgeey" method="POST">
+                <label for="name"><b>Name:</b></label><input type="text" id="name" name="name" /><br />
+                <label for ="email"><b>Email:</b></label><input type="email" id="email" name="email" /><br />
+                <label for="phone"><b>Phone Number:</b></label><input type="tel" id="phone" name="phone" /><br />
+                <label for="message"><b>Message:</b></label><textarea type="text" id="message" name="message"></textarea><br />
+                <input type="submit" value="Submit" /> <input type="reset" value="Reset" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Footer / Include images to social medias (Twitter, LinkedIn, gitHub, CodePen) & Resume download -->
+
+<div id="footer">
+    <div class="container-fluid">
+        <div class="container-fluid bg-1 text-center">
+            <h3 class="margin">Find me on the following platforms or download my resume:</h3><br />
+            <a href="http://www.twitter.com/codewithkj" target="_blank"><img src="assets/twitter.png" alt="twitter" width="45px" height="45px"/></a> &ensp; <a href="https://www.linkedin.com/in/kylejohnson1985/" target="_blank" alt="LinkedIn"><img src="assets/linkedin.png" alt="LinkedIn" width="43px" height="43px" /></a>  &ensp; <a href="https://github.com/kylejohnson1985" target="_blank"><img src="assets/github.png" alt="GitHub" width="45px" height="45px" /></a> &ensp;  <a href="https://codepen.io/kylejohnson1985" target="_blank"><img src="assets/codepen.png" alt="CodePen" width="45px" height="45px" /></a> &ensp; <a href="resume.pdf" target="_blank"><img src="assets/resume.png" alt="Resume" width="45px" height="45px" /></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
