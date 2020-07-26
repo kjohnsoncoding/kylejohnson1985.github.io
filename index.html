@@ -34,7 +34,7 @@
         <div class="container-fluid">
             <div class="container-fluid bg-1 text-center">
                 <h2 class="margin">Who Am I?</h2>
-                <img src="assets/profile.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Profile" width="350" height="350">
+                <img src="assets/headshot.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Profile" width="350" height="350">
                 <h3>I'm Kyle Johnson and I'm a software developer!</h3>
             </div>
         </div>
@@ -67,74 +67,60 @@
     </div>
 </div>
 
-<!-- Projects / Bootstrap Carousel-->
+<!-- Projects -->
 <div id="projects">
     <div class="container text-center">
-        <h2>My Projects</h2>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-          </ol>
-      
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <a href="https://github.com/kylejohnson1985/tictactoe" target="_blank"><img src="assets/tictactoe.jpg" alt="Tic Tac Toe" style="width:100%;"></a>
-              <div class="carousel-caption">
-                <h3>Tic-Tac-Toe</h3>
-                <p>Created using C#. View on GitHub.</p>
-              </div>
-            </div>
-      
-            <div class="item">
-              <a href="https://codepen.io/kylejohnson1985/pen/VwLmEJo" target="_blank"><img src="assets/csscreature.jpg" alt="CSS Creature" style="width:100%;"></a>
-              <div class="carousel-caption">
-                <h3>CSS Creature</h3>
-                <p>Attempted creature using just CSS. View on CodePen.</p>
-              </div>
-            </div>
-          
-            <div class="item">
-              <a href="http://www.twitch.tv" target="_blank"><img src="assets/staticstore.jpg" alt="Static Store Front" style="width:100%;"></a>
-              <div class="carousel-caption">
-                <h3>Static Store Front</h3>
-                <p>Created a store front using HTML & CSS. View on GitHub.</p>
-              </div>
-            </div>
+        <h2>My Projects</h2><br />
 
-            <div class="item">
-                <a href="#" target="_blank"><img src="assets/bluebadge.jpg" alt="API Group Project" style="width:100%;"></a>
-                <div class="carousel-caption">
-                  <h3>EFA Blue Badge Project</h3>
-                  <p>Filler space for EFA Blue Badge Project</p>
+        <div class="projectContainer">
+            <div class="projectBox">
+                <div class="projectContent">
+                    <h2>01</h2>
+                    <h3>Tic-Tac-Toe</h3>
+                    <p>One of my first C# projects was creating a game of Tic-Tac-Toe with a partner. Helped with the fundamentals of C#, GitHub, and working with others.</p>
+                    <a href="https://kylejohnson1985.github.io/assets/tictactoe.jpg" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+    
+            <div class="projectBox">
+                <div class="projectContent">
+                    <h2>02</h2>
+                    <h3>CSS Creature</h3>
+                    <p>One of my first projects using CSS was the creation of a CSS Creature. This project helped learn some of the basics of CSS and how it's used.</p>
+                    <a href="https://kylejohnson1985.github.io/assets/csscreature.jpg" target="_blank">View on CodePen</a>
+                </div>
+            </div>
+    
+            <div class="projectBox">
+                <div class="projectContent">
+                    <h2>03</h2>
+                    <h3>Static Store Front</h3>
+                    <p>To gain some experience with HTML & CSS, I created this static store front page. Gained valueable knowledge with the fundamentals of HTML & CSS.</p>
+                    <a href="https://kylejohnson1985.github.io/assets/staticstore.jpg" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+    
+            <div class="projectBox">
+                <div class="projectContent">
+                    <h2>04</h2>
+                    <h3>ASP.NET API</h3>
+                    <p>This was another group project and the first utilizing ASP.NET Web API. For this we created the backend for a simple video game database.</p>
+                    <a href="https://github.com/m0thm4n/GameAPI" target="_blank">View on GitHub</a>
                 </div>
             </div>
 
-            <div class="item">
-                <a href="#" target="_blank"><img src="assets/redbadge.jpg" alt="Red Badge" style="width:100%;"></a>
-                <div class="carousel-caption">
-                  <h3>EFA Red Badge Project</h3>
-                  <p>Filler space for EFA Red Badge Project</p>
+            <div class="projectBox">
+                <div class="projectContent">
+                    <h2>05</h2>
+                    <h3>Project Management</h3>
+                    <p>This is my first individual MVC Web App. I took the knowledge gained through previous projects and created a fully functional web app.</p>
+                    <a href="https://github.com/kylejohnson1985/ProjectManagement" target="_blank">View on GitHub</a>
                 </div>
             </div>
+
         </div>
-      
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
+
+    </div>
 </div>
 
 <!-- Knowledge / Progress bars on various technologies & certifications -->
@@ -147,16 +133,46 @@
                     <h3>Languages & Programs</h3>
 
                     <div id="skill">
+                        <div id="skill">
+                            <div id="logo">
+                                <img src="assets/csharp.png" alt="C Sharpe" width="50px" height="50px" />
+                            </div>
+                            <div id="bar">
+                                <div style="text-align: left;">
+                                    <b>C# -- <span id="strong">Strong</span></b>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="skill">
+                            <div id="logo">
+                                <img src="assets/netlogo.png" alt="ASP.NET" width="50px" height="30px" />
+                            </div>
+                            <div id="bar">
+                                <div style="text-align: left;">
+                                    <b>ASP.NET -- <span id="intermediate">Intermediate</span></b>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                    aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%;"></div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div id="logo">
                             <img src="assets/html5.png" alt="HTML" width="50px" height="50px" />
                         </div>
                         <div id="bar">
                             <div style="text-align: left;">
-                                <b>HTML -- <span id="novice">Novice</span></b>
+                                <b>HTML -- <span id="intermediate">Intermediate</span></b>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
-                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%;"></div>
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%;"></div>
                             </div>
                         </div>
                     </div>
@@ -167,29 +183,15 @@
                         </div>
                         <div id="bar">
                             <div style="text-align: left;">
-                                <b>CSS -- <span id="novice">Novice</span></b>
+                                <b>CSS -- <span id="intermediate">Intermediate</span></b></b>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
-                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%;"></div>
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%;"></div>
                             </div>
                         </div>
                     </div>
 
-                    <div id="skill">
-                        <div id="logo">
-                            <img src="assets/csharp.png" alt="C Sharpe" width="50px" height="50px" />
-                        </div>
-                        <div id="bar">
-                            <div style="text-align: left;">
-                                <b>C# -- <span id="novice">Novice</span></b>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
-                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%;"></div>
-                            </div>
-                        </div>
-                    </div>
 
                     <div id="skill">
                         <div id="logo">
@@ -197,11 +199,11 @@
                         </div>
                         <div id="bar">
                             <div style="text-align: left;">
-                                <b>Bootstrap -- <span id="novice">Novice</span></b>
+                                <b>Bootstrap -- <span id="intermediate">Intermediate</span></b></b>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
-                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:25%;"></div>
+                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%;"></div>
                             </div>
                         </div>
                     </div>
@@ -212,11 +214,11 @@
                         </div>
                         <div id="bar">
                             <div style="text-align: left;">
-                                <b>Visual Studio Code -- <span id="intermediate">Intermediate</span></b>
+                                <b>Visual Studio Code -- <span id="strong">Strong</span></b>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
-                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%;"></div>
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
                             </div>
                         </div>
                     </div>
@@ -227,11 +229,11 @@
                         </div>
                         <div id="bar">
                             <div style="text-align: left;">
-                                <b>Visual Studio Community -- <span id="intermediate">Intermediate</span></b>
+                                <b>Visual Studio Community -- <span id="strong">Strong</span></b>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
-                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%;"></div>
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%;"></div>
                             </div>
                         </div>
                     </div>
@@ -257,6 +259,38 @@
                     <h3>Certifications & Achievements</h3>
 
                     <div id="cert">
+                        <div id="logo">
+                            <img src="assets/bluebadge_icon.png" alt="Blue Badge" width="50px" height="50px" />
+                        </div>
+                        <div id="description">
+                            <div>
+                                <b>Eleven Fifty Academy Blue Badge</b><br />
+                                <i>Completed June 2020</i><br />
+                                <a href="https://www.youracclaim.com/badges/5c0fa988-0bf8-4bb5-9ac0-e193c7996382/linked_in" target="_blank">View Certification</a>
+                                <ul>
+                                    <li>Fundamentals of ASP.NET layere Web API Development</li>
+                                    <li>Applied problem solving</li>
+                                    <li>Debugging skills</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div id="logo">
+                            <img src="assets/goldbadge.png" alt="Gold Badge" width="50px" height="50px" />
+                        </div>
+                        <div id="description">
+                            <div>
+                                <b>Eleven Fifty Academy Gold Badge</b><br />
+                                <i>Completed April 2020</i><br />
+                                <a href="https://www.youracclaim.com/badges/5c0fa988-0bf8-4bb5-9ac0-e193c7996382/linked_in" target="_blank">View Certification</a>
+                                <ul>
+                                    <li>Fundamentals of C#, CSS, and HTML</li>
+                                    <li>Developer tools, such as Visual Studio, Github, and Git</li>
+                                    <li>Ability to meet deadlines and complete a series of business challenges covering C# and Object Oriented Programming fundamentals</li>
+                                </ul>
+                            </div>
+                        </div>
+    
                         <div id="logo">
                             <img src="assets/linkedin.png" alt="LinkedIn" width="50px" height="50px" />
                         </div>
@@ -292,21 +326,6 @@
                         </div>
                     </div>
 
-                    <div id="logo">
-                        <img src="assets/goldbadge.png" alt="Gold Badge" width="50px" height="50px" />
-                    </div>
-                    <div id="description">
-                        <div>
-                            <b>Eleven Fifty Academy Gold Badge</b><br />
-                            <i>Completed April 2020</i><br />
-                            <a href="https://www.youracclaim.com/badges/5c0fa988-0bf8-4bb5-9ac0-e193c7996382/linked_in" target="_blank">View Certification</a>
-                            <ul>
-                                <li>Fundamentals of C#, CSS, and HTML</li>
-                                <li>Developer tools, such as Visual Studio, Github, and Git</li>
-                                <li>Ability to meet deadlines and complete a series of business challenges covering C# and Object Oriented Programming fundamentals</li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -336,7 +355,7 @@
     <div class="container-fluid">
         <div class="container-fluid bg-1 text-center">
             <h3 class="margin">Find me on the following platforms or download my resume:</h3><br />
-            <a href="http://www.twitter.com/codewithkj" target="_blank"><img src="assets/twitter.png" alt="twitter" width="45px" height="45px"/></a> &ensp; <a href="https://www.linkedin.com/in/kylejohnson1985/" target="_blank" alt="LinkedIn"><img src="assets/linkedin.png" alt="LinkedIn" width="43px" height="43px" /></a>  &ensp; <a href="https://github.com/kylejohnson1985" target="_blank"><img src="assets/github.png" alt="GitHub" width="45px" height="45px" /></a> &ensp;  <a href="https://codepen.io/kylejohnson1985" target="_blank"><img src="assets/codepen.png" alt="CodePen" width="45px" height="45px" /></a> &ensp; <a href="resume.pdf" target="_blank"><img src="assets/resume.png" alt="Resume" width="45px" height="45px" /></a>
+            <a href="https://twitter.com/kjohnsoncoding" target="_blank"><img src="assets/twitter.png" alt="twitter" width="45px" height="45px"/></a> &ensp; <a href="https://www.linkedin.com/in/kylejohnson1985/" target="_blank" alt="LinkedIn"><img src="assets/linkedin.png" alt="LinkedIn" width="43px" height="43px" /></a>  &ensp; <a href="https://github.com/kylejohnson1985" target="_blank"><img src="assets/github.png" alt="GitHub" width="45px" height="45px" /></a> &ensp;  <a href="https://codepen.io/kylejohnson1985" target="_blank"><img src="assets/codepen.png" alt="CodePen" width="45px" height="45px" /></a> &ensp; <a href="resume.pdf" target="_blank"><img src="assets/resume.png" alt="Resume" width="45px" height="45px" /></a>
         </div>
     </div>
 </div>
